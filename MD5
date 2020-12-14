@@ -1,6 +1,6 @@
-1fab7d5446c5b279b5b05f6a3d2dae31 *DESCRIPTION
+3f38a67d1e420d0ae4d33383944d17d0 *DESCRIPTION
 2f5725507714566db11d3b4c23a47724 *NAMESPACE
-d47e79634ad49b4262ff3af9f789b93f *R/aggregate_data.R
+c82cc3ad3df8694a2ad2a12bdd6e51bc *R/aggregate_data.R
 bc4a3501d8acec653312cc5fd7778498 *R/aggregate_dt.R
 165c62bd388c1d186875e0d914cf0899 *R/append_rows.R
 997a79ec13bb3ddc80e3b7e49fee154a *R/code_writing.R
@@ -18,8 +18,8 @@ cd12532971659139a548cbb26c283a5a *R/create_new_var.R
 a35daa428881d9a0f2538f4d13f6cc46 *R/filter_rows.R
 d11eb6cd686b3ce8b5641eae254bb934 *R/helpers.R
 aefc609b248c4ac673f6e38dbd9823df *R/iNZightTools.R
-884c331596faa0774aca5c8d8cc218c7 *R/import_data.R
-4ac35a36a87aa35fc2781444c54f08d3 *R/import_survey.R
+f4f3ca32c864b6deac6f99055454653c *R/import_data.R
+6c78161dbc4199ff69a9656bccf64b7c *R/import_survey.R
 e75a44745e15f4a51d661e4f65236611 *R/join_data.R
 fa47e175e900e6f61b658e5372d003b1 *R/metadata_object.R
 916e409817a425bdc48b6fe7e45f8ad8 *R/metadata_read.R
@@ -44,7 +44,7 @@ fce6373cd731a481cfa241b89e8c9a35 *R/transform_var.R
 fa35ff6340fa360186079104160ecc5d *R/unite_cols.R
 19fcab4136a249384cce0d54fdfad6c1 *R/validate_dataset.R
 8dcb5bcbcbc1f11166e382142f19e42d *man/add_suffix.Rd
-e19971426ac368b0fb2d38b6f327911a *man/aggregateData.Rd
+23ffcee4dc4549130e9e4822f65a6aa1 *man/aggregateData.Rd
 ff8801bf58aaf5d2adeda2a6d6a91731 *man/aggregatedt.Rd
 9e18269957641ddc291d17be39a2b7c2 *man/appendrows.Rd
 ae38f572cb68e71372351fb2b760ecf0 *man/code.Rd
@@ -65,7 +65,7 @@ bd73d525be006c3e30b34e15a2aecd2b *man/filterLevels.Rd
 420e1052cc1864a788be7dd06c447c0a *man/fitModel.Rd
 78859b9c3a291271e995406fd306c5ba *man/grapes-notin-grapes.Rd
 90f48887b7e08b6a69c1f562d6cca051 *man/iNZightTools.Rd
-02dcfc3b1950e7708ba934d16702e1b3 *man/import_survey.Rd
+5ec82ef2f3f448c2c9c5f39b9949e0d6 *man/import_survey.Rd
 ce81d04b268f5d8661c4f5b8d775e474 *man/is_cat.Rd
 507b79b7edfea1c3e68802ab09258f77 *man/is_dt.Rd
 254fd28e212e3a8e5f009c3ed3309d8a *man/is_num.Rd
@@ -129,7 +129,7 @@ c5683def8fbef71b885f76804222c843 *tests/testthat/meta.txt
 e82802d5e5aa68f3ea703761c0e49ac0 *tests/testthat/test-read_text.R
 f84b980072615b83cbf82c75f1ea4348 *tests/testthat/test-test_tidy_code.R
 c7d024dc776bd1891da13439799f8e9b *tests/testthat/test.sas7bdat
-30ee554d101258c4544b39ccdcc4834c *tests/testthat/test_Extfromdt.R
+3355a1b5f4bd9e46f8f3129228dc313c *tests/testthat/test_Extfromdt.R
 7256897adb2dc009cc05a53944cdfca8 *tests/testthat/test_add_suffix.R
 52ae09f89209607b0fb4bb3411b97ef4 *tests/testthat/test_catvars.R
 e22d379f6772a37e276bfcde5c502ba2 *tests/testthat/test_collapseLevels.R
@@ -145,8 +145,8 @@ b08bb2cbc77917c57dc9b6cc968bb468 *tests/testthat/test_reorderlevels.R
 bf2506154fe79d3de6ca5f275eace67e *tests/testthat/test_reshape.R
 71a35e4f57daa85a6c2540991a500640 *tests/testthat/test_select_vars.R
 7b16e95411c431e6109f459987c7b6da *tests/testthat/test_separate.R
-77a5921b513f4d8032f93bf496230d65 *tests/testthat/test_smart_read.R
-cb9f58b5c120931524e14fb9a6d2101a *tests/testthat/test_survey_design.R
+24144ed13ebd9736a2bcadfc302bbfb3 *tests/testthat/test_smart_read.R
+04440e179a1b07995558f6d9dc1d4844 *tests/testthat/test_survey_design.R
 687b9a4d84f2e42fc5136d786553d780 *tests/testthat/test_tidy_code.R
 035a279243e8db7d0fb57b6661cad98d *tests/testthat/test_transform_var.R
 2eec9fe000ca018848517af2c587e8be *tests/testthat/test_unite.R
