@@ -1,6 +1,6 @@
-5f5316c4c1f0417325d98ac729f54bd5 *DESCRIPTION
+aa1cda746b029200e51cfbacac9a4f1b *DESCRIPTION
 c0dc18b4c7464627d67a3903f6e82560 *NAMESPACE
-a520ee2c996ed966c60624b39a8b96de *R/aggregate_data.R
+4287515ebcf63978f0106a8cb55798d3 *R/aggregate_data.R
 bc4a3501d8acec653312cc5fd7778498 *R/aggregate_dt.R
 a7f744a1e1b25f4842189daba532c086 *R/append_rows.R
 07f53318c07f721ef1ef3c1ad766afbb *R/class_intervals.R
@@ -135,7 +135,7 @@ e82802d5e5aa68f3ea703761c0e49ac0 *tests/testthat/test-read_text.R
 c7d024dc776bd1891da13439799f8e9b *tests/testthat/test.sas7bdat
 3355a1b5f4bd9e46f8f3129228dc313c *tests/testthat/test_Extfromdt.R
 7256897adb2dc009cc05a53944cdfca8 *tests/testthat/test_add_suffix.R
-2e559a5096876cf01582d1f478cb7076 *tests/testthat/test_aggregateData.R
+588afc6cae57302227509c117ac7f2e6 *tests/testthat/test_aggregateData.R
 f8e5e70446f5b5440b3cb15620b5d334 *tests/testthat/test_appendrows.R
 5092564b45c3d8eb640efd272e28b0b3 *tests/testthat/test_catvars.R
 5bbbf8ed8b4cea4ec4e5d43109b5b08e *tests/testthat/test_classintervals.R
