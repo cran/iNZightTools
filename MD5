@@ -1,9 +1,9 @@
-aa1cda746b029200e51cfbacac9a4f1b *DESCRIPTION
+1927a014e883d7c8cdcd551ddab24bcd *DESCRIPTION
 c0dc18b4c7464627d67a3903f6e82560 *NAMESPACE
 4287515ebcf63978f0106a8cb55798d3 *R/aggregate_data.R
 bc4a3501d8acec653312cc5fd7778498 *R/aggregate_dt.R
-a7f744a1e1b25f4842189daba532c086 *R/append_rows.R
-07f53318c07f721ef1ef3c1ad766afbb *R/class_intervals.R
+0665bca0c27356ccd27f40ee15743698 *R/append_rows.R
+3736d3f0be8290fa3bcda55cdcd1753e *R/class_intervals.R
 997a79ec13bb3ddc80e3b7e49fee154a *R/code_writing.R
 a95a34a740aa4cc247732ebbd9cd90a9 *R/collapse_levels.R
 ce066e11563f28c79aa049335629cd3e *R/combine_cat_var.R
@@ -47,7 +47,7 @@ fff94a0888668000cdbc5aeaf1ae8b04 *R/transform_var.R
 8dcb5bcbcbc1f11166e382142f19e42d *man/add_suffix.Rd
 27ce7a20d0e9390f78407e4be657ced4 *man/aggregateData.Rd
 ff8801bf58aaf5d2adeda2a6d6a91731 *man/aggregatedt.Rd
-256ee608ab0aca1e65feff8219c72790 *man/appendrows.Rd
+027282e769a9a9d2c09a0e117ba194be *man/appendrows.Rd
 c68bda3e78bb58a35676a40ce49ca226 *man/as_survey_spec.Rd
 ae38f572cb68e71372351fb2b760ecf0 *man/code.Rd
 caa679734a520a38467a6ea016c01c8e *man/collapseLevels.Rd
@@ -65,7 +65,7 @@ c95a734ac3b706ecf368b7fceba027c2 *man/filterNumeric.Rd
 003ff1ea83752f644450e44442b5a3d5 *man/filterRows.Rd
 744cca7931bacff02ae9a679e105a54c *man/fitDesign.Rd
 420e1052cc1864a788be7dd06c447c0a *man/fitModel.Rd
-2b3be71ae8030145626d682ada1728dc *man/form_class_intervals.Rd
+c5e58f6af5c1a1032288395cd2b7d560 *man/form_class_intervals.Rd
 78859b9c3a291271e995406fd306c5ba *man/grapes-notin-grapes.Rd
 90f48887b7e08b6a69c1f562d6cca051 *man/iNZightTools.Rd
 a92b52b041c905b2e8ab0dd4e4732c8e *man/import_survey.Rd
@@ -159,11 +159,11 @@ dd24b9dd1393b50c903a18e178d6951d *tests/testthat/test_reorderlevels.R
 bf2506154fe79d3de6ca5f275eace67e *tests/testthat/test_reshape.R
 5a73717904a1351f0bdc1663cc2b7ccd *tests/testthat/test_select_vars.R
 361ae0c195846442cfbbdf8e0790f0a0 *tests/testthat/test_separate.R
-399d168e10abbf30c13d5e82a0e3d4a0 *tests/testthat/test_smart_read.R
+8a2203b260c85c02cc058d17f7f4b98c *tests/testthat/test_smart_read.R
 17a4bc8519a79ccf660a90bd7015ae1e *tests/testthat/test_sort.R
 0acad05f6432c59a5ed8edbcc728dd74 *tests/testthat/test_stackvars.R
 4db9707ea5c0621826c4eb087c589693 *tests/testthat/test_standardize_vars.R
-be7cc49d2d540fb38cbe13ae1f3aec4f *tests/testthat/test_survey_design.R
+01fa440f34f30d2336004df5fafe9798 *tests/testthat/test_survey_design.R
 39f4f455c1a8cffb75b67f0b6aed9d81 *tests/testthat/test_tidy_code.R
 70ff4dc4ef5c8ec7ccbf3b3daee56996 *tests/testthat/test_transform_var.R
 490c53bbd09828f7faa6c46610e191ec *tests/testthat/test_unite.R

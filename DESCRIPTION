@@ -1,7 +1,7 @@
 Package: iNZightTools
 Type: Package
 Title: Tools for 'iNZight'
-Version: 1.11.1
+Version: 1.11.2
 Imports: chron, dplyr, forcats, glue, grDevices, haven, magrittr,
         methods, RcppTOML, readr (>= 1.2.0), readxl, srvyr, stats,
         stringr, styler, survey, tibble, tidyr, tools, lubridate,
@@ -25,7 +25,7 @@ Encoding: UTF-8
 Language: en-GB
 RoxygenNote: 7.1.1
 NeedsCompilation: no
-Packaged: 2021-06-29 22:32:22 UTC; tom
+Packaged: 2021-07-13 02:04:23 UTC; tom
 Author: Tom Elliott [aut, cre] (<https://orcid.org/0000-0002-7815-6318>),
   Christoph Knopf [ctb],
   Akshay Gupta [ctb],
@@ -35,4 +35,4 @@ Author: Tom Elliott [aut, cre] (<https://orcid.org/0000-0002-7815-6318>),
   Daniel Barnett [aut] (Data validation)
 Maintainer: Tom Elliott <tom.elliott@auckland.ac.nz>
 Repository: CRAN
-Date/Publication: 2021-06-30 05:10:05 UTC
+Date/Publication: 2021-07-13 05:00:05 UTC
