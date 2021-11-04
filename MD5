@@ -1,4 +1,4 @@
-ba9705939b67479990ba16b2513f0389 *DESCRIPTION
+dc90857ab8fbe2dcdc5365d4033f6df7 *DESCRIPTION
 64c104ba30a2b0271ea302daa569d698 *NAMESPACE
 4538b4812dcd230f998ecb626b506876 *R/aggregate_data.R
 bc4a3501d8acec653312cc5fd7778498 *R/aggregate_dt.R
@@ -19,7 +19,7 @@ b96e97aa284d0e461187baa4651600a2 *R/filter_numeric.R
 b0ec5bc0d87da90cb69975808f2d4ed4 *R/filter_rows.R
 d11eb6cd686b3ce8b5641eae254bb934 *R/helpers.R
 aefc609b248c4ac673f6e38dbd9823df *R/iNZightTools.R
-5e6bee601162b58b20864afd252e7791 *R/import_data.R
+a3fcbf04deea51012dfb8814f8c0babf *R/import_data.R
 9eca13eba89cf323648c83d19ebe8d50 *R/import_survey.R
 d41bb0f6f90e852e40f4d3b5dee44bf7 *R/join_data.R
 12c9df97b1721a6c06347901dd41d067 *R/metadata_object.R
@@ -116,6 +116,7 @@ b1e171a48eec9fb266420fc8a6b8cb5c *man/vartype.Rd
 86c689f0f314c41a2e91bb6f0b735788 *tests/testthat/c5hw1.dta
 8f04df2f688abca23d84eefb59e3383c *tests/testthat/cars.xpt
 7d19a31cc63a7f04bb2cbbe3c13fa104 *tests/testthat/cas.txt
+907c1d3c61b4b82beff1ae8848d67e4c *tests/testthat/cas500-missing.csv
 fa28f002c930725f8567ec4e0085d84e *tests/testthat/cas500.csv
 73a5a8c164d1d7f17a4178a4e9197e56 *tests/testthat/cas500.xls
 b04fb20d70546f646d3c071893dd64a9 *tests/testthat/characters.csv
@@ -138,7 +139,7 @@ c3020a71a213a1f4b20f6b9c9fca857f *tests/testthat/meta_chars.csv
 c7d024dc776bd1891da13439799f8e9b *tests/testthat/test.sas7bdat
 5ec1caadf6be6e4c73e0bc2120b2a1e2 *tests/testthat/test_Extfromdt.R
 d9dbba6494e788f67b5a27f8441c1e16 *tests/testthat/test_add_suffix.R
-024b94a57ac933ee5f1f438400e75123 *tests/testthat/test_aggregateData.R
+1aa895ce8eb776307288c75896d6edfb *tests/testthat/test_aggregateData.R
 80d7246a55a5a665d1237959c350804d *tests/testthat/test_appendrows.R
 32aa06c72fca20d7fe340ee4a26c6389 *tests/testthat/test_catvars.R
 51a3a3515779f88975b32fdf29fae187 *tests/testthat/test_classintervals.R
@@ -164,7 +165,7 @@ d41d8cd98f00b204e9800998ecf8427e *tests/testthat/test_metadata_file.R
 f810c96bc1bd9dacef6de686aec7370b *tests/testthat/test_reshape.R
 bfdf5bd7832ed96bc3d0789c45ad3e6e *tests/testthat/test_select_vars.R
 f514cb83541763b624ea3c63e2125e3a *tests/testthat/test_separate.R
-29ca5c73fbd19be13841638173bba033 *tests/testthat/test_smart_read.R
+10cdc903f4c624a019a68f2e35a4038c *tests/testthat/test_smart_read.R
 d122f0bb8ba0a36d20edf94f3194211e *tests/testthat/test_sort.R
 2e89d1f529afb1710ba8e665a764fddc *tests/testthat/test_stackvars.R
 70d3621a917544d3bf24adc15af2d31b *tests/testthat/test_standardize_vars.R

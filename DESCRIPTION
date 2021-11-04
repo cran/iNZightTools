@@ -1,7 +1,7 @@
 Package: iNZightTools
 Type: Package
 Title: Tools for 'iNZight'
-Version: 1.12.0
+Version: 1.12.1
 Depends: R (>= 4.0)
 Imports: chron, dplyr, forcats, glue, grDevices, haven, magrittr,
         methods, RcppTOML, readr (>= 1.2.0), readxl, srvyr, stats,
@@ -27,7 +27,7 @@ Language: en-GB
 RoxygenNote: 7.1.1
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2021-09-17 03:52:53 UTC; tom
+Packaged: 2021-11-04 22:22:48 UTC; tom
 Author: Tom Elliott [aut, cre] (<https://orcid.org/0000-0002-7815-6318>),
   Christoph Knopf [ctb],
   Akshay Gupta [ctb],
@@ -37,4 +37,4 @@ Author: Tom Elliott [aut, cre] (<https://orcid.org/0000-0002-7815-6318>),
   Daniel Barnett [aut] (Data validation)
 Maintainer: Tom Elliott <tom.elliott@auckland.ac.nz>
 Repository: CRAN
-Date/Publication: 2021-09-17 04:50:02 UTC
+Date/Publication: 2021-11-04 22:40:02 UTC
