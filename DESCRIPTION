@@ -1,7 +1,7 @@
 Package: iNZightTools
 Type: Package
 Title: Tools for 'iNZight'
-Version: 1.12.2
+Version: 1.12.3
 Depends: R (>= 4.0)
 Imports: chron, dplyr, forcats, glue, grDevices, haven, magrittr,
         methods, RcppTOML, readr (>= 1.2.0), readxl, srvyr, stats,
@@ -24,10 +24,10 @@ Description: Provides a collection of wrapper functions for common variable and 
 License: GPL-3
 Encoding: UTF-8
 Language: en-GB
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2022-01-18 23:04:08 UTC; tom
+Packaged: 2022-08-22 19:56:46 UTC; tom
 Author: Tom Elliott [aut, cre] (<https://orcid.org/0000-0002-7815-6318>),
   Daniel Barnett [aut],
   Owen Jin [aut],
@@ -37,4 +37,4 @@ Author: Tom Elliott [aut, cre] (<https://orcid.org/0000-0002-7815-6318>),
   Lushi Cai [ctb]
 Maintainer: Tom Elliott <tom.elliott@auckland.ac.nz>
 Repository: CRAN
-Date/Publication: 2022-01-18 23:32:42 UTC
+Date/Publication: 2022-08-22 20:20:02 UTC

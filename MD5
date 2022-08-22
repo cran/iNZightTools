@@ -1,4 +1,4 @@
-71fba12559936c4af08695d81c5542c8 *DESCRIPTION
+dfd9654a589e6c90e8fdb55f3bdccf56 *DESCRIPTION
 453a95c067bda5b5f9b814d976188637 *NAMESPACE
 4538b4812dcd230f998ecb626b506876 *R/aggregate_data.R
 bc4a3501d8acec653312cc5fd7778498 *R/aggregate_dt.R
@@ -19,7 +19,7 @@ b96e97aa284d0e461187baa4651600a2 *R/filter_numeric.R
 b0ec5bc0d87da90cb69975808f2d4ed4 *R/filter_rows.R
 d11eb6cd686b3ce8b5641eae254bb934 *R/helpers.R
 39659b30f910cc666f6373879ee47e2c *R/iNZightTools.R
-b0a876f7f1ec579a8205da26758d485e *R/import_data.R
+1558519e4107a58935b410fe5f4e80a8 *R/import_data.R
 9eca13eba89cf323648c83d19ebe8d50 *R/import_survey.R
 d41bb0f6f90e852e40f4d3b5dee44bf7 *R/join_data.R
 12c9df97b1721a6c06347901dd41d067 *R/metadata_object.R
@@ -43,15 +43,15 @@ a12d2c73662986e0a450644091a0990d *R/standardize_var.R
 2ae3a1dfa617f26074a7b6d7704aa8d1 *R/tool_str_c.R
 fff94a0888668000cdbc5aeaf1ae8b04 *R/transform_var.R
 847d0e40f3bc2e8752a852d242544c97 *R/unite_cols.R
-19fcab4136a249384cce0d54fdfad6c1 *R/validate_dataset.R
+b425b50963ec61360ef9f0284e074517 *R/validate_dataset.R
 73a5a8c164d1d7f17a4178a4e9197e56 *inst/extdata/cas500.xls
 33583b7c31697c72f9bb12c56e8a9959 *inst/pkgdown/templates/footer.html
 8dcb5bcbcbc1f11166e382142f19e42d *man/add_suffix.Rd
-7f9caf2519d29ab42dd584c02988526d *man/aggregateData.Rd
+ec3353d1d1a2136e1a69651d48201beb *man/aggregateData.Rd
 ff8801bf58aaf5d2adeda2a6d6a91731 *man/aggregatedt.Rd
 027282e769a9a9d2c09a0e117ba194be *man/appendrows.Rd
 028d9ab2ef63e5fbdb2332b770187a3d *man/as_survey.inzsvyspec.Rd
-c68bda3e78bb58a35676a40ce49ca226 *man/as_survey_spec.Rd
+faf884ef9becefeffbf1a707639ab6a7 *man/as_survey_spec.Rd
 ae38f572cb68e71372351fb2b760ecf0 *man/code.Rd
 caa679734a520a38467a6ea016c01c8e *man/collapseLevels.Rd
 653732a733e67e19da9e17b696e3cba8 *man/combineCatVars.Rd
@@ -70,7 +70,7 @@ c95a734ac3b706ecf368b7fceba027c2 *man/filterNumeric.Rd
 420e1052cc1864a788be7dd06c447c0a *man/fitModel.Rd
 c5e58f6af5c1a1032288395cd2b7d560 *man/form_class_intervals.Rd
 78859b9c3a291271e995406fd306c5ba *man/grapes-notin-grapes.Rd
-a92b52b041c905b2e8ab0dd4e4732c8e *man/import_survey.Rd
+e81be530e37bef09539dca468992955c *man/import_survey.Rd
 ce81d04b268f5d8661c4f5b8d775e474 *man/is_cat.Rd
 507b79b7edfea1c3e68802ab09258f77 *man/is_dt.Rd
 254fd28e212e3a8e5f009c3ed3309d8a *man/is_num.Rd
@@ -98,7 +98,7 @@ f0c7d4d8f9aac93029977ff9d0114219 *man/read_meta.Rd
 8f177258caff18b455a44bd979182432 *man/selectVars.Rd
 82cb7863facfd55507b14f914a13c04f *man/separate.Rd
 90a8dbc9fdd2554fa282b3e9c770ec2a *man/sheets.Rd
-498f51a88c395981090ea65b5f1e772b *man/smart_read.Rd
+5573bd18a77e1cb010fa015ee82b3211 *man/smart_read.Rd
 b2061580d2f3b381adf9c5e2be43be6b *man/sortVars.Rd
 357976ae1412b7f0225cec85c9aa02f3 *man/stackVars.Rd
 7aca669a704bbfced7a48e5870c235c5 *man/standardizeVars.Rd
@@ -165,7 +165,7 @@ d41d8cd98f00b204e9800998ecf8427e *tests/testthat/test_metadata_file.R
 f810c96bc1bd9dacef6de686aec7370b *tests/testthat/test_reshape.R
 bfdf5bd7832ed96bc3d0789c45ad3e6e *tests/testthat/test_select_vars.R
 f514cb83541763b624ea3c63e2125e3a *tests/testthat/test_separate.R
-10cdc903f4c624a019a68f2e35a4038c *tests/testthat/test_smart_read.R
+cf3ab453db4e6c98838bf47bfded0c9d *tests/testthat/test_smart_read.R
 d122f0bb8ba0a36d20edf94f3194211e *tests/testthat/test_sort.R
 2e89d1f529afb1710ba8e665a764fddc *tests/testthat/test_stackvars.R
 70d3621a917544d3bf24adc15af2d31b *tests/testthat/test_standardize_vars.R
