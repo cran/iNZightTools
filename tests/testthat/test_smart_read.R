@@ -1,3 +1,5 @@
+options(inzighttools.comment = "#")
+
 test_that("smart_read can figure out the file type", {
     expect_equal(guess_type("txt"), "meta")
     expect_equal(guess_type("dta"), "stata")
@@ -37,19 +39,23 @@ test_that("smart_read returns code with necessary conversions included", {
     skip_if_not_installed("haven")
     expect_equal(
         code(smart_read("appbset1.sav")),
-        "haven::read_sav(\"appbset1.sav\")"
+        "haven::read_sav(\"appbset1.sav\")",
+        ignore_attr = TRUE
     )
     expect_equal(
         code(smart_read("c5hw1.dta")),
-        "haven::read_dta(\"c5hw1.dta\")"
+        "haven::read_dta(\"c5hw1.dta\")",
+        ignore_attr = TRUE
     )
     expect_equal(
         code(smart_read("test.sas7bdat")),
-        "haven::read_sas(\"test.sas7bdat\") %>% dplyr::mutate_at(\"gender\", as.factor)"
+        "haven::read_sas(\"test.sas7bdat\") %>% dplyr::mutate_at(\"gender\", as.factor)",
+        ignore_attr = TRUE
     )
     expect_equal(
         code(smart_read("cars.xpt")),
-        "haven::read_xpt(\"cars.xpt\") %>% dplyr::mutate_at(\"MAKE\", as.factor)"
+        "haven::read_xpt(\"cars.xpt\") %>% dplyr::mutate_at(\"MAKE\", as.factor)",
+        ignore_attr = TRUE
     )
 })
 
@@ -268,4 +274,12 @@ test_that("Variable names are quoted as necessary", {
     expect_equal(quote_varname("hello-world"), "`hello-world`")
     expect_equal(quote_varname("hello_world"), "hello_world")
     expect_equal(quote_varname("_hello"), "`_hello`")
+})
+
+test_that("Global comment argument is passed to readr::read_csv", {
+    expect_s3_class(smart_read("comments.csv"), "data.frame")
+    op <- options(inzighttools.comment = NULL)
+    on.exit(options(op))
+    expect_error(smart_read("comments.csv"))
+    expect_s3_class(smart_read("comments.csv", comment = "#"), "data.frame")
 })
